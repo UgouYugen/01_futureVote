@@ -1,13 +1,21 @@
 {
   "name": "01_futurevote",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "description": "",
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "node-schedule": "^2.1.1",
+    "twitter-api-v2": "^1.16.1"
+  }
 }
